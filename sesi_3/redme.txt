@@ -1,0 +1,53 @@
+pembelajaran sesi 03
+------------------------------------------------
+
+https://www.git-scm.com/downloads
+kunjungi https://github.com/
+- registrasi github/login github
+- generate token classic
+
+- setelah download git scm > install
+- konfigurasi data (inisialisasi data git) > .git (directory yang akan kita inisialisasi ke folder aplikasi kita)
+
+langkah:
+	- git init > inisialisasi (pertama) > membuat sebuah folder .git dan mengintegrasikan data koding (folder kita) ke dalam repository git
+  - git remote (pertama) > url repo > menyesuaikan branch
+----- di saat ingin mengirim data -------
+  - git add . > menambahkan data/file untuk dikirim ke server/menuju server
+  - git commit -m "update" > siap kirim (data yang ada di lokal menuju server)
+  - git push > kirim data ke server git
+  
+kondisi:
+	1. jika kita membuat sebuah project di laptop kita (rumah) > status = kirim data
+  2. lalu kita keluar rumah (lupa membawa laptop) > save link repo (login di github)
+  3. kita pinjam ke teman/kita ke warnet untuk menggunakan komputer > update data
+  	> git clone url_repo di github > nampil data yg sebelumnya
+  4. kita kolaborasi > temen join > ada perbaikan/ada update
+  5. disaat kita melakukan pull data > bisa jalan (jika tidak ada perubahan)
+  	> tidak jalan (jika ada perubahan) > stash / git pull
+    
+------------------------------------------------
+format pembuatan repo:
+nama repository > pb4_webprogramming :
+- sesi_01
+- sesi_02
+- sesi_03
+- sesi_04
+- sesi_05
+- sesi_06
+- sesi_07
+
+
+00 | arif setiawan | https://github.com/arifswn/web-programmer-basic
+01 | nurpitriana | https://github.com/Nurpitriana/pb4_webprogramming
+
+
+
+
+
+
+
+
+
+
+
