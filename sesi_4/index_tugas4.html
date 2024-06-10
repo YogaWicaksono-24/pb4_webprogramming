@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Mandiri Sesi 4-Yoga Wicaksono </title>
+</head>
+<body>
+    <h1>Tugas algoritma yang menghitung luas dan keliling lingkaran, jika diberikan panjang jari-jari lingkaran.</h1>
+    <script>
+        //nomor 1. title//
+        let judul_algoritma="Menghitung Luas Dan Keliling Lingkaran";
+        //nomor 2. input//
+        let input1=10;
+        let input2=20;
+        let input3=30;
+        function luas(r){
+            luasLingkaran=3.14*(r*r);
+            return luasLingkaran;
+        }
+        function keliling(r){
+            kelilinglingkaran=2*r*3.14;
+            return kelilinglingkaran;
+        }
+        //nomor 3. kondisi//'
+        for(let i=1;i<=3;i++){
+        if (i==1){
+            let luas1=luas(input1);
+            let keliling1=keliling(input1).toFixed(2);
+            console.log("Hasil luas dan keliling lingkaran r=input1= "+luas1+" m^2 dan "+keliling1+" m");
+        } else if (i==2){
+            let luas2=luas(input2);
+            let keliling2=keliling(input2).toFixed(2);
+            console.log("Hasil luas dan keliling lingkaran r=input2= "+luas2+" m^2 dan "+keliling2+" m");
+        } else {
+            let luas3=luas(input3);
+            let keliling3=keliling(input3).toFixed(2);
+            console.log("Hasil luas dan keliling lingkaran r=input3= "+luas3+" m^2 dan "+keliling3+" m");
+        }}
+        //nomor 4. console.log("hasil dari pada menghitung luas = "+ hasil)//
+    </script>
+</body>
+</html>
